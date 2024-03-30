@@ -1,17 +1,25 @@
 {
   "name": "next-app-ruspass-hackathon",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "scripts": {
+    "install-deps": "yarn --ignore-engines",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "download:schema:gql:auth": "apollo client:download-schema --endpoint=http://lexxv.ru:50430/api/graphql schema-auth.graphql",
+    "download:schema:gql:geoapify": "apollo client:download-schema --endpoint=http://lexxv.ru:50431/api/geoapify-nest-adapter/graphql schema-geoapify-adapter.graphql",
+    "types": "graphql-codegen --config src/core/apollo/types/codegen.ts"
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "react-toastify": "^9.1.3",
+    "next": "14.1.4",
+    "@apollo/client": "^3.9.5",
+    "apollo": "^2.34.0",
+    "@graphql-codegen/cli": "^5.0.2"
   },
   "devDependencies": {
     "typescript": "^5",
