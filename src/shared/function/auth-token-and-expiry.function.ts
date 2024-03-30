@@ -1,3 +1,4 @@
+'use client'
 import {TTokenDataAttributes} from "@/core/apollo/types/graphql/graphql";
 
 export enum ETokenAndExpiryLocalStorageKeys {

@@ -3,7 +3,7 @@ import {useCallback} from 'react'
 import styles from '../main/styles/index.module.css'
 import React, {useState} from 'react'
 
-export const MainPage = () => {
+const MainPage = () => {
     const [selectedCity, setSelectedCity] = useState('Москва')
     const [startDate, setStartDate] = useState('')
     const [endDate, setEndDate] = useState('')
@@ -398,3 +398,5 @@ export const MainPage = () => {
 
     </div>)
 }
+
+export default MainPage

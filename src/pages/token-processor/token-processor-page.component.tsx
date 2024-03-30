@@ -4,6 +4,8 @@ import {userLogged} from '@/core/apollo/vars'
 
 import {useSearchParams} from 'next/navigation'
 import {GLOBAL_CONFIG} from '@/core/config/global-config'
+import {useRouter} from 'next/router'
+import {getTokensAndExpiry} from '@/shared/function/auth-token-and-expiry.function'
 
 
 export enum ETokenProcessorPageSearchParams {
@@ -13,7 +15,7 @@ export enum ETokenProcessorPageSearchParams {
     refreshTokenTtl = 'refreshTokenTtl'
 }
 
-export const TokenProcessorPage: FC = () => {
+const TokenProcessorPage: FC = () => {
     const searchParams = useSearchParams() || new URLSearchParams()
 
     useEffect(() => {
@@ -27,19 +29,24 @@ export const TokenProcessorPage: FC = () => {
             localStorage.setItem('refreshExpiry', searchParams.get(ETokenProcessorPageSearchParams.refreshTokenTtl) || '')
             userLogged(true)
             setTimeout(() => {
-
                 window.location.replace(new URL(
                     window.location.protocol
                     + window.location.host
                     + window.location.pathname,
                 ))
-            }, 100)
-        } else {
-            const url = new URL(GLOBAL_CONFIG.entrypointServiceAddress)
-            url.searchParams.set('redirectUrl', `${window.location.protocol}//${window.location.host}`)
-            window.location.replace(url)
+            }, 1)
         }
+
+        if (getTokensAndExpiry().accessToken || getTokensAndExpiry().refreshToken) {
+            return
+        }
+
+        const url = new URL(GLOBAL_CONFIG.entrypointServiceAddress)
+        url.searchParams.set('redirectUrl', `${window.location.protocol}//${window.location.host}`)
+        window.location.replace(url)
     }, [])
 
     return null
 }
+
+export default TokenProcessorPage
