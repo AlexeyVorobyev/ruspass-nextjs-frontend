@@ -1,4 +1,4 @@
-import styles from '../main copy/styles/index.module.css'
+import styles from '@/pages/belca/styles/index.module.css'
 
 const IPhone1314 = () => {
   return (

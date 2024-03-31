@@ -1,4 +1,4 @@
-import IPhone1314 from '@/pages/main copy/belca-page.component'
+import IPhone1314 from '@/pages/belca/belca-page.component'
 
 
 export default function IPhone() {
