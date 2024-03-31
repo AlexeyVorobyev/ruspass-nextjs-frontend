@@ -1,0 +1,1750 @@
+.divactivityPopupOverlay {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  background-color: var(--russpassru-black-28);
+  width: 386px;
+  height: 840px;
+}
+.divslideItemsIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divslide {
+  position: absolute;
+  top: -25px;
+  left: -5px;
+  background-color: var(--russpassru-nero-02);
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+  width: 431px;
+  height: 503px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 23px 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.div {
+  width: 100%;
+  position: relative;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  line-height: 22px;
+  font-family: var(--russpassru-suisse-intl-regular-12-upper);
+  color: var(--russpassru-cod-gray);
+  text-align: center;
+  display: inline-block;
+  min-width: 74px;
+  max-width: 74px;
+}
+.divactivityTypeWrap {
+  cursor: pointer;
+  border: 0;
+  padding: 6px var(--padding-base) var(--padding-5xs) 15.7px;
+  background-color: var(--russpassru-cyan-aqua-wheat-50);
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+      rgba(245, 223, 184, 0.5),
+      rgba(245, 223, 184, 0.5)
+    ),
+    #fffbf3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.divactivityType,
+.divactivityTypeRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.divactivityTypeRow {
+  justify-content: center;
+  padding: 0 140.3px;
+}
+.divactivityType {
+  justify-content: flex-start;
+  min-height: 36px;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.div1 {
+  width: 100%;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  max-width: 338px;
+}
+.divactivityTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 49.5px 0;
+}
+.p10,
+.p11,
+.p12,
+.p13,
+.p14,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8,
+.p9 {
+  margin: 0;
+}
+.div2 {
+  position: relative;
+  line-height: 25px;
+  display: inline-block;
+  max-width: 338px;
+}
+.annotations,
+.p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.p2 {
+  align-self: stretch;
+  padding: 0 2px 0 0;
+  text-align: left;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  font-family: var(--russpassru-suisse-intl-regular-12-upper);
+}
+.annotations {
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: 23.6px;
+}
+.annotations,
+.div3,
+.heading6 {
+  align-self: stretch;
+}
+.div3 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.heading6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) var(--padding-12xs-3) 0;
+}
+.p16,
+.p17 {
+  margin: 0;
+}
+.div4 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  max-width: 294px;
+}
+.divactivityInformationBlock,
+.p15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.p15 {
+  padding: 0 15px var(--padding-12xs-3) 0;
+  font-size: 14px;
+  color: var(--russpassru-cod-gray-50);
+  font-family: var(--russpassru-suisse-intl-regular-12-upper);
+}
+.divactivityInformationBlock {
+  border-radius: var(--br-xl);
+  border: 2px solid var(--russpassru-citrine-white1);
+  padding: var(--padding-3xl) var(--padding-base) 21.9px var(--padding-xl);
+  gap: var(--gap-9xs);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.teamIcon {
+  width: 118.5px;
+  height: 123.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 46.5px;
+  left: 206px;
+  object-fit: contain;
+}
+.heading61 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 24px;
+  font-weight: 600;
+}
+.heading62 {
+  width: 243px;
+  position: relative;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.heading6Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.basilplaySolidIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.heading63 {
+  position: relative;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: #414141;
+  text-align: left;
+  display: inline-block;
+  min-width: 68px;
+}
+.dataTree,
+.outputProcessor {
+  display: flex;
+  justify-content: flex-start;
+}
+.dataTree {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.outputProcessor {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--russpassru-nero);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.versionHistory {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 43px;
+  z-index: 1;
+}
+.divactivityInformationBlock1,
+.plugins,
+.properties,
+.styles,
+.versionHistory {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divactivityInformationBlock1 {
+  align-self: stretch;
+  height: 180px;
+  border-radius: var(--br-xl);
+  background-color: #1a386b;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-lg) 9.7px var(--padding-3xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-9xs);
+  color: var(--russpassru-nero);
+}
+.plugins,
+.properties,
+.styles {
+  max-width: 100%;
+}
+.styles {
+  flex: 1;
+  flex-direction: column;
+  gap: 32px;
+}
+.plugins,
+.properties {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.properties {
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+}
+.plugins {
+  margin-top: -872px;
+  flex-direction: column;
+  padding: 0 0 40.5px;
+  gap: var(--gap-11xs);
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+}
+.h3 {
+  margin: 0;
+  width: 261px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 338px;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 38px 0 38.5px;
+}
+.divtrackMapWrapmaskGroupIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.divactivityCardInner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.divactivityCardInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 26px var(--padding-9xs) var(--padding-3xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.dividerIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 8px;
+}
+.divmainActivityCardNumber {
+  border-radius: var(--br-base-5);
+  background-color: var(--russpassru-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-5xs);
+  z-index: 1;
+}
+.svgIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cod-gray-40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 40px;
+  z-index: 1;
+}
+.buttonWrapper,
+.divmainActivityCardImgWr {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.divmainActivityCardImgWr {
+  border-radius: var(--br-xl);
+  background-color: var(--russpassru-wheat-50);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-xs);
+  position: relative;
+  gap: var(--gap-146xl-9);
+}
+.div5 {
+  width: 86.6px;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pmainActivityCardDescript {
+  align-self: stretch;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-3);
+  box-sizing: border-box;
+}
+.p18,
+.p19,
+.p20 {
+  margin: 0;
+}
+.div6 {
+  margin-top: -4px;
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.heading64 {
+  align-self: stretch;
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.divmainActivityCardImgWrParent,
+.pmainActivityCardDescriptParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pmainActivityCardDescriptParent {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  font-size: var(--russpassru-suisse-intl-regular-12-upper-size);
+  color: var(--russpassru-cod-gray-50);
+}
+.divmainActivityCardImgWrParent {
+  flex: 1;
+  gap: var(--gap-xs);
+  min-width: 107px;
+}
+.tabIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.button1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 10px;
+}
+.divmainActivityCardNumber1 {
+  border-radius: var(--br-base-5);
+  background-color: var(--russpassru-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-6xs);
+  z-index: 1;
+}
+.svgIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button2 {
+  margin: 0 !important;
+  position: absolute;
+  right: 7.9px;
+  bottom: 8px;
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cod-gray-40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 40px;
+  z-index: 1;
+}
+.divmainActivityCardImgWr1 {
+  align-self: stretch;
+  height: 245.9px;
+  border-radius: var(--br-xl);
+  background-color: var(--russpassru-wheat-50);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.div7 {
+  width: 43.1px;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pmainActivityCardDescript1 {
+  align-self: stretch;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-3);
+  box-sizing: border-box;
+}
+.p21,
+.p22 {
+  margin: 0;
+}
+.txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.div8 {
+  margin-top: -22px;
+  width: 158.5px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.p23,
+.p24 {
+  margin: 0;
+}
+.txt1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.div9 {
+  width: 160.6px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+  margin-top: -22px;
+}
+.heading65,
+.pmainActivityCardDescriptGroup {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heading65 {
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-lg) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.pmainActivityCardDescriptGroup {
+  gap: var(--gap-9xs);
+  font-size: var(--russpassru-suisse-intl-regular-12-upper-size);
+  color: var(--russpassru-cod-gray-50);
+}
+.circle,
+.circleWrapper,
+.column,
+.pmainActivityCardDescriptGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.column {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 107px;
+}
+.circle,
+.circleWrapper {
+  flex-direction: row;
+  max-width: 100%;
+}
+.circle {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.circleWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl-2) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-family: var(--russpassru-suisse-intl-regular-12-upper);
+}
+.icon1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div10 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 10px;
+}
+.divmainActivityCardNumber2 {
+  border-radius: var(--br-base-5);
+  background-color: var(--russpassru-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-6xs);
+  z-index: 1;
+}
+.svgIcon2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button3 {
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cod-gray-40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 40px;
+  z-index: 1;
+}
+.buttonContainer,
+.divmainActivityCardImgWr2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.divmainActivityCardImgWr2 {
+  border-radius: var(--br-xl);
+  background-color: var(--russpassru-wheat-50);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-xs);
+  position: relative;
+  gap: var(--gap-146xl-9);
+}
+.div11 {
+  width: 60.8px;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pmainActivityCardDescript2 {
+  align-self: stretch;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-3);
+  box-sizing: border-box;
+}
+.p25,
+.p26,
+.p27 {
+  margin: 0;
+}
+.div12 {
+  margin-top: -4px;
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.heading66 {
+  align-self: stretch;
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.divmainActivityCardImgWrGroup,
+.pmainActivityCardDescriptContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pmainActivityCardDescriptContainer {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  font-size: var(--russpassru-suisse-intl-regular-12-upper-size);
+  color: var(--russpassru-cod-gray-50);
+}
+.divmainActivityCardImgWrGroup {
+  flex: 1;
+  gap: var(--gap-xs);
+  min-width: 107px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div13 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 10px;
+}
+.divmainActivityCardNumber3 {
+  border-radius: var(--br-base-5);
+  background-color: var(--russpassru-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-6xs);
+  z-index: 1;
+}
+.svgIcon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button4 {
+  margin: 0 !important;
+  position: absolute;
+  right: 7.9px;
+  bottom: 8px;
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cod-gray-40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 40px;
+  z-index: 1;
+}
+.divmainActivityCardImgWr3 {
+  align-self: stretch;
+  height: 245.9px;
+  border-radius: var(--br-xl);
+  background-color: var(--russpassru-wheat-50);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.div14 {
+  width: 43.1px;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pmainActivityCardDescript3 {
+  align-self: stretch;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-3);
+  box-sizing: border-box;
+}
+.div15 {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.heading67 {
+  align-self: stretch;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.divmainActivityCardImgWrContainer,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  font-size: var(--russpassru-suisse-intl-regular-12-upper-size);
+  color: var(--russpassru-cod-gray-50);
+}
+.divmainActivityCardImgWrContainer {
+  flex: 1;
+  gap: var(--gap-xs);
+  min-width: 107px;
+}
+.divactivityCardChild,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.divactivityCardChild {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl-2) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-family: var(--russpassru-suisse-intl-regular-12-upper);
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div16 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 10px;
+}
+.divmainActivityCardNumber4 {
+  border-radius: var(--br-base-5);
+  background-color: var(--russpassru-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-6xs);
+  z-index: 1;
+}
+.svgIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button5 {
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cod-gray-40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 40px;
+  z-index: 1;
+}
+.buttonFrame,
+.divmainActivityCardImgWr4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.divmainActivityCardImgWr4 {
+  border-radius: var(--br-xl);
+  background-color: var(--russpassru-wheat-50);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-xs);
+  position: relative;
+  gap: var(--gap-146xl-9);
+}
+.div17 {
+  width: 86.6px;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pmainActivityCardDescript4 {
+  align-self: stretch;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-3);
+  box-sizing: border-box;
+}
+.p28,
+.p29 {
+  margin: 0;
+}
+.txt2 {
+  line-break: anywhere;
+  width: 100%;
+}
+.div18 {
+  margin-top: -22px;
+  width: 158.5px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.p30,
+.p31 {
+  margin: 0;
+}
+.txt3 {
+  line-break: anywhere;
+  width: 100%;
+}
+.div19 {
+  width: 160.6px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+  margin-top: -22px;
+}
+.heading68,
+.pmainActivityCardDescriptParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading68 {
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-lg) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.pmainActivityCardDescriptParent1 {
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-9xs);
+  font-size: var(--russpassru-suisse-intl-regular-12-upper-size);
+  color: var(--russpassru-cod-gray-50);
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div20 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 9px;
+}
+.divmainActivityCardNumber5 {
+  border-radius: var(--br-base-5);
+  background-color: var(--russpassru-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 7.5px;
+  z-index: 1;
+}
+.svgIcon5 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button6 {
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cod-gray-40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 40px;
+  z-index: 1;
+}
+.buttonWrapper1,
+.divmainActivityCardImgWr5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.divmainActivityCardImgWr5 {
+  border-radius: var(--br-xl);
+  background-color: var(--russpassru-wheat-50);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-xs);
+  position: relative;
+  gap: var(--gap-146xl-9);
+}
+.div21 {
+  width: 43.1px;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pmainActivityCardDescript5 {
+  align-self: stretch;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-3);
+  box-sizing: border-box;
+}
+.p32,
+.p33 {
+  margin: 0;
+}
+.txt4 {
+  line-break: anywhere;
+  width: 100%;
+}
+.div22 {
+  margin-top: -22px;
+  width: 158.5px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.p34,
+.p35 {
+  margin: 0;
+}
+.txt5 {
+  line-break: anywhere;
+  width: 100%;
+}
+.div23 {
+  width: 160.6px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+  margin-top: -22px;
+}
+.heading69,
+.pmainActivityCardDescriptParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading69 {
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-lg) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.pmainActivityCardDescriptParent2 {
+  gap: var(--gap-9xs);
+  font-size: var(--russpassru-suisse-intl-regular-12-upper-size);
+  color: var(--russpassru-cod-gray-50);
+}
+.divmainActivityCardImgWrParent1,
+.divmainActivityCardImgWrParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.divmainActivityCardImgWrParent2 {
+  align-self: stretch;
+}
+.divmainActivityCardImgWrParent1 {
+  flex: 1;
+  min-width: 107px;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div24 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 10px;
+}
+.divmainActivityCardNumber6 {
+  border-radius: var(--br-base-5);
+  background-color: var(--russpassru-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-6xs);
+  z-index: 1;
+}
+.svgIcon6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button7 {
+  margin: 0 !important;
+  position: absolute;
+  right: 7.9px;
+  bottom: 8px;
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cod-gray-40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 40px;
+  z-index: 1;
+}
+.divmainActivityCardImgWr6 {
+  align-self: stretch;
+  height: 245.9px;
+  border-radius: var(--br-xl);
+  background-color: var(--russpassru-wheat-50);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.div25 {
+  width: 86.6px;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pmainActivityCardDescript6 {
+  align-self: stretch;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-3);
+  box-sizing: border-box;
+}
+.p36,
+.p37,
+.p38 {
+  margin: 0;
+}
+.div26 {
+  margin-top: -4px;
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.heading610 {
+  align-self: stretch;
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+  font-family: var(--russpassru-suisse-intl-medium-16);
+}
+.divmainActivityCardImgWrParent3,
+.pmainActivityCardDescriptParent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pmainActivityCardDescriptParent3 {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  font-size: var(--russpassru-suisse-intl-regular-12-upper-size);
+  color: var(--russpassru-cod-gray-50);
+}
+.divmainActivityCardImgWrParent3 {
+  flex: 1;
+  gap: var(--gap-xs);
+  min-width: 107px;
+}
+.divactivityCardInner1,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.divactivityCardInner1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl-2) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-family: var(--russpassru-suisse-intl-regular-12-upper);
+}
+.h31 {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 93px;
+  max-width: 338px;
+}
+.pactivityTrackTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.heading611,
+.heading612 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 52px;
+}
+.heading612 {
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray-50);
+  min-width: 75px;
+}
+.imagePlaceholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.mingcutestarFillIcon,
+.mingcutestarFillIcon1,
+.mingcutestarFillIcon2,
+.mingcutestarFillIcon3,
+.mingcutestarFillIcon4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.flexBoxContainer,
+.labelParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.labelParent {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div27 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  line-height: 125%;
+  color: var(--color-gray-100);
+}
+.divactivityInformationBlock2,
+.iconContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.iconContainer {
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+}
+.divactivityInformationBlock2 {
+  border-radius: var(--br-xl);
+  border: 2px solid var(--russpassru-citrine-white1);
+  align-items: center;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.heading613,
+.heading614 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 85px;
+}
+.heading614 {
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray-50);
+  min-width: 75px;
+}
+.heading6Group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.mingcutestarFillIcon5,
+.mingcutestarFillIcon6,
+.mingcutestarFillIcon7,
+.mingcutestarFillIcon8,
+.mingcutestarFillIcon9 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.frameParent2,
+.mingcutestarFillParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameParent2 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.p39,
+.p40 {
+  margin: 0;
+}
+.div28 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  line-height: 125%;
+  color: var(--color-gray-100);
+}
+.divactivityInformationBlock3,
+.divactivityInformationBlockParent,
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-4xs);
+}
+.divactivityInformationBlock3,
+.divactivityInformationBlockParent {
+  align-items: center;
+}
+.divactivityInformationBlock3 {
+  border-radius: var(--br-xl);
+  border: 2px solid var(--russpassru-citrine-white1);
+  padding: var(--padding-base) 21px;
+}
+.divactivityInformationBlockParent {
+  gap: 24px;
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+}
+.pactivityTrackTitleParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.divactivityCardInner2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.divactivityCard {
+  position: absolute;
+  top: 406px;
+  left: 0px;
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-cyan-aqua);
+  width: 100%;
+  height: 3251px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 854px 0 443.4px;
+  box-sizing: border-box;
+  gap: 28px;
+  z-index: 2;
+}
+.div29,
+.functionTree {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--russpassru-suisse-intl-medium-16-size);
+  color: var(--russpassru-cod-gray);
+}
+.functionTree {
+  height: 3657px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  text-align: left;
+  font-family: var(--font-inter);
+}
+.div29 {
+  line-height: 22px;
+  font-family: var(--russpassru-suisse-intl-regular-12-upper);
+  text-align: center;
+}
+.button8 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) 47.7px;
+  background-color: var(--russpassru-green);
+  flex: 1;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 179px;
+  min-height: 48px;
+  white-space: nowrap;
+}
+.svgIcon7 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button9 {
+  border-radius: var(--br-xs);
+  background-color: var(--russpassru-wheat-50);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  box-sizing: border-box;
+  min-height: 48px;
+  max-height: 48px;
+}
+.divadaptiveComponentSm {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--russpassru-cyan-aqua-wheat-50);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divactivityActionButtonWr {
+  align-self: stretch;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--russpassru-nero);
+  border-top: 2px solid var(--russpassru-citrine-white);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) 25.3px var(--padding-base);
+  gap: var(--gap-xs);
+}
+.divactivityActionButtonCo {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.divactivityActionButton,
+.divactivityActionButtonCo,
+.iphone13141 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.divactivityActionButton {
+  margin-right: -1px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.iphone13141 {
+  width: 100%;
+  height: 3902px;
+  position: relative;
+  background-color: var(--russpassru-cyan-aqua);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 0 245px;
+  box-sizing: border-box;
+  gap: 168px;
+  letter-spacing: normal;
+}
